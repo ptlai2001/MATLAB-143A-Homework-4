@@ -1,7 +1,7 @@
 close all
 clear all
 clc
-%% Problem 1
+%%Problem 1
 %1a
 disp('Setting up the Diophantine problem (solve a*x1+b*y1=f1 for x and y) in Problem 1a)')
 b=[1 0 -20 0 64];
@@ -57,7 +57,7 @@ fprintf('%g, ', polesf2(1:end-1));
 fprintf('%g]\n', polesf2(end));
 fprintf('\n')
 
-%% Problem 3
+%%Problem 3
 s = tf('s');
 d = 0.1;
 sys = exp(-d*s);
@@ -94,7 +94,7 @@ figure(4)
 pzmap(f8s)
 title('Pole-Zero Map for F_8(s)')
 
-%% Problem 4
+%%Problem 4
 %Part a
 figure(5)
 rlocus(tf([1],[1 0]))
